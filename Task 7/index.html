@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerequisite Task 7</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form>
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <br>
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter Your Email" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <br>
+            <div>
+                <p>How did you hear About this?</p>
+                <select id="option" name="option">
+                    <option value="option1">Google</option>
+                    <option value="option1">Facebook</option>
+                    <option value="option1">Internet</option>
+                    <option value="option1">Other</option>
+                </select>
+            </div>
+            <p>Would you visit again?</p>
+            <input type="radio" id="yes" name="visit" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="visit" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="may be" name="visit" value="may be">
+            <label for="may be">May be</label>
+
+            <p>Comments:</p>
+            <textarea id="comments" placeholder="" row="4" optional style="width: 300px; height: 100px;"></textarea><br>
+            <input type="checkbox" id="yes" name="visit" value="yes">
+            <label>Sign me up for Email updates</label> <br>
+            <button>Submit review</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
