@@ -1,0 +1,33 @@
+h1{
+    font-weight: bold;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+p{
+    font-size: 18px;
+}
+.heading-3{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.heading-3::first-letter{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer{
+   text-align: center;
+}
+.footer a{
+    color: purple;
+    font-weight: bold;
+}
